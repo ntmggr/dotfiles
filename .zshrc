@@ -68,3 +68,12 @@ PATH=${PATH}:"usr/local/share/npm/bin"
 PATH=${PATH}:"$HOME"/Dropbox/Working/chassis
 
 export PATH=${PATH}
+alias vscode="/Applications/Visual\ Studio\ Code.app/contents/Resources/app/bin/code"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export GPG_TTY=$(tty)

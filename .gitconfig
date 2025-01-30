@@ -8,11 +8,12 @@
 #    ░░░░░  ░░    ░░   ░░░░░   ░░░░░░  ░░░   ░░   ░░   ░░  ░░░░░
 
 [user]
-	name = ntmggr
-	email = nikos@lakoutsis.com
-    # name = Brad Parbs
-    # email = brad@bradparbs.com
-    # github = bradp
+	name = nlakoutsis
+	email = nlakoutsis@omilia.com
+    github = ntmggr
+
+	signingkey = ECBA75ED3F5A182E23E1B2B0FE443088E8B19053
+
 [core]
 	editor = vim
 	excludesfile = ~/dotfiles/.global_ignore
@@ -112,3 +113,5 @@
 
 [advice]
 	statusHints = false
+[gpg]
+	program = gpg
